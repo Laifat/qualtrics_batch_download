@@ -27,6 +27,7 @@ headers = {
 progressids = []
 fileids = []
 Datacenter_ID = "syd1" #Get it from account setting
+timezone = Asia/Hong_Kong
 
 #Download the files function
 def download ():
@@ -46,7 +47,7 @@ for i in surveylist:
     data = {
         "format": "csv",
         "useLabels": True,
-        "timeZone": "Asia/Hong_Kong"
+        "timeZone": timezone
     }
     
     response = requests.post(url, headers=headers, json=data)
