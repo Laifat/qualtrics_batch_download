@@ -1,5 +1,5 @@
 # Qualtrics questionnaires batch download code
-A small Python code for downloading Qualtircs questionnaires in batch/n
+A Python code for downloading Qualtircs questionnaires in batch
 # What you need?
 - API Token
 - Data Centre code (Can be find in the account setting)
